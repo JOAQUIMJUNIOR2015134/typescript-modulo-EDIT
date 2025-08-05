@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import Exercise1 from "./Exercise1";
 import Exercise2 from "./Exercise2";
 import Exercise3 from "./Exercise3";
+import Exercise4 from "./Exercise4";
 import Exercise5 from "./Exercise5";
 import Exercise6 from "./Exercise6";
 import Exercise7 from "./Exercise7";
@@ -20,13 +21,27 @@ import Exercise16 from "./Exercise16";
 import Exercise17 from "./Exercise17";
 import Exercise18 from "./Exercise18";
 import Exercise19 from "./Exercise19";
+import Exercise20 from "./Exercise20";
 import Exercise21 from "./Exercise21";
 import Exercise22 from "./Exercise22";
 import Exercise23 from "./Exercise23";
 import Exercise24 from "./Exercise24";
 import Exercise25 from "./Exercise25";
-import Exercise4 from "./Exercise4";
-import Exercise20 from "./Exercise20";
+import Exercise26 from "./Exercise26";
+import Exercise27 from "./Exercise27";
+import Exercise28 from "./Exercise28";
+import Exercise29 from "./Exercise29";
+import Exercise30 from "./Exercise30";
+import Exercise31 from "./Exercise31";
+import Exercise32 from "./Exercise32";
+import Exercise33 from "./Exercise33";
+import Exercise34 from "./Exercise34";
+import Exercise35 from "./Exercise35";
+import Exercise36 from "./Exercise36";
+import Exercise37 from "./Exercise37";
+import Exercise38 from "./Exercise38";
+import Exercise39 from "./Exercise39";
+import Exercise40 from "./Exercise40";
 import "./App.css";
 
 function App() {
@@ -42,6 +57,21 @@ function App() {
 						<Exercise3 />
 						<Exercise4 />
 						<Exercise5 />
+						<Exercise26 />
+						<Exercise27 />
+						<Exercise28 />
+						<Exercise29 />
+						<Exercise30 />
+						<Exercise31 />
+						<Exercise32 />
+						<Exercise33 />
+						<Exercise34 />
+						<Exercise35 />
+						<Exercise36 />
+						<Exercise37 />
+						<Exercise38 />
+						<Exercise39 />
+						<Exercise40 />
 					</>
 				);
 			case 2:

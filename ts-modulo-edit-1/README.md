@@ -3,19 +3,37 @@ Typescript initiation
 
 ## Roteiro de Aula (Português de Portugal)
 
-### Dia 1: Tipos Básicos
+### Dia 1: Tipos Básicos + Exercícios de Reforço
 **Roteiro:**
 - Diferença entre JavaScript e TypeScript.
 - Tipos primitivos: number, string, boolean.
 - Declarar variáveis com tipos explícitos.
 - Arrays e tuplos.
+- Exercícios de reforço para consolidar conhecimentos.
 
-**Exercícios:**
+**Exercícios Básicos:**
 1. Declare uma variável 'age' do tipo number e atribua-lhe o valor 25.
 2. Crie uma variável string 'studentName' e atribua-lhe o seu nome.
 3. Crie uma variável booleana 'isActive' e defina-a como true.
 4. Crie um array de números chamado 'scores'.
 5. Crie um tuplo para um produto: [string, number].
+
+**Exercícios de Reforço (Aprendizagem):**
+26. Reescreva um dos exercícios anteriores usando um tipo diferente (por exemplo, troque number por string).
+27. Crie uma função que recebe um array de strings e retorna o tamanho do maior elemento.
+28. Crie um objeto com propriedades opcionais e aceda a elas de forma segura.
+29. Escreva uma função que recebe um parâmetro do tipo união (string | number) e retorna uma string formatada.
+30. Crie uma interface para um produto e adicione um método para calcular o preço com desconto.
+31. Use um enum para representar diferentes estados de um pedido (ex: Pendente, Pago, Enviado).
+32. Crie um array de objetos tipados e filtre os elementos com base numa propriedade.
+33. Escreva uma função genérica que recebe dois argumentos e retorna um array com ambos.
+34. Crie um componente React que recebe uma lista de utilizadores e renderiza os nomes.
+35. Use Partial para criar um objeto de configuração onde todas as propriedades são opcionais.
+36. Escreva uma função que recebe um objeto e uma chave (keyof) e retorna o valor correspondente.
+37. Crie um tipo que combine duas interfaces usando interseção (&) e use-o numa função.
+38. Implemente um hook React personalizado que retorna um valor booleano e uma função para alterná-lo.
+39. Crie um componente React que utiliza um enum para renderizar diferentes mensagens consoante o estado.
+40. Crie uma função TypeScript 2025 usando arrow function syntax que aceita um tipo 'unknown' e verifica seguramente se é uma string antes de a usar.
 
 ### Dia 2: Funções & Objetos
 **Roteiro:**
@@ -64,7 +82,7 @@ Typescript initiation
 - Introducing utility types: Pick and Omit.
 - Discussing common patterns in React applications with TypeScript.
 
-**Exercises:*
+**Exercises:**
 21. Create a React functional component that accepts props with a typed interface.
 22. Use the useState hook with a typed state variable.
 23. Create a component that receives a callback function as a prop and types it.
@@ -73,21 +91,9 @@ Typescript initiation
 
 ---
 
-### Exercícios de Reforço (Aprendizagem)
-Os exercícios seguintes servem para consolidar e reforçar os conhecimentos adquiridos nos dias anteriores. Pratique, experimente variações e tente explicar cada solução em voz alta ou a um colega.
-
-26. Reescreva um dos exercícios anteriores usando um tipo diferente (por exemplo, troque number por string).
-27. Crie uma função que recebe um array de strings e retorna o tamanho do maior elemento.
-28. Crie um objeto com propriedades opcionais e aceda a elas de forma segura.
-29. Escreva uma função que recebe um parâmetro do tipo união (string | number) e retorna uma string formatada.
-30. Crie uma interface para um produto e adicione um método para calcular o preço com desconto.
-31. Use um enum para representar diferentes estados de um pedido (ex: Pendente, Pago, Enviado).
-32. Crie um array de objetos tipados e filtre os elementos com base numa propriedade.
-33. Escreva uma função genérica que recebe dois argumentos e retorna um array com ambos.
-34. Crie um componente React que recebe uma lista de utilizadores e renderiza os nomes.
-35. Use Partial para criar um objeto de configuração onde todas as propriedades são opcionais.
-36. Escreva uma função que recebe um objeto e uma chave (keyof) e retorna o valor correspondente.
-37. Crie um tipo que combine duas interfaces usando interseção (&) e use-o numa função.
-38. Implemente um hook React personalizado que retorna um valor booleano e uma função para alterná-lo.
-39. Crie um componente React que utiliza um enum para renderizar diferentes mensagens consoante o estado.
-40. (Opcional) Escolha um exercício anterior e explique cada linha de código para a turma. 
+### Notas Importantes:
+- **Exercícios 26-40** são exercícios de reforço que consolidam os conhecimentos adquiridos nos dias anteriores.
+- Todos os exercícios estão implementados como componentes React funcionais.
+- Cada exercício inclui uma descrição, solução e demonstração prática.
+- Os exercícios de reforço (26-40) são exibidos no Dia 1 da aplicação para facilitar o acesso.
+- Pratique, experimente variações e tente explicar cada solução em voz alta ou a um colega. 
